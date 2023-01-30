@@ -18,7 +18,7 @@ srand (time(NULL)); //Hace que el numero siempre sea aleatorio
 num_aleatorio = rand() % (122-97+1) + 97;   //Esta entre 97 y 122
 comienza = rand() % 2+1;    //Elige quien comienza
 //char letra_aleatoria = num_aleatorio + '0';
-printf("%d",num_aleatorio);
+//printf("%d",num_aleatorio);
 printf("\nLISTO \nYa se escogio una letra, ahora intenta adivinar\n");
 printf("Tu eres el jugador uno y la maquina el 2\n");
 printf("Comienza el jugador %d \n", comienza);
